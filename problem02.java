@@ -7,7 +7,7 @@ public class problem02 {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		Pattern parser = Pattern.compile(
-				"(?<name>[A-Z][a-z]+).*?(?<alchohol>[A-Z][a-z]*[A-Z]).*?(?<quantity>[1-9][0-9]*[0-9]*)L");
+				"(?<name>[A-Z][a-z]+).*?(?<alchohol>[A-Z][a-z]*[A-Z]).*?(?<quantity>\\d+)L");
 		double totalQuantity = 0;
 		String line = scn.nextLine();
 		while (!line.equals("OK KoftiShans")) {
