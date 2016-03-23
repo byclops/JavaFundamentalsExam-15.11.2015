@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+//A comment, intended for SVN testing!
+
 public class problem01 {
  /* Palatka Conf
   https://judge.softuni.bg/Contests/Practice/DownloadResource/1048 
